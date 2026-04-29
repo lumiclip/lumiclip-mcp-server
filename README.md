@@ -4,7 +4,7 @@ Turn YouTube videos into short clips — from Claude, Cursor, or any AI assistan
 
 Give it a YouTube link. It finds the best moments, reframes for vertical video (9:16), adds subtitles, and returns download-ready clips.
 
-[![smithery badge](https://smithery.ai/badge/lumiclip/lumiclip-mcp-server)](https://smithery.ai/servers/lumiclip/lumiclip-mcp-server) [![Lumiclip MCP server](https://glama.ai/mcp/servers/lumiclip/lumiclip-mcp-server/badges/card.svg)](https://glama.ai/mcp/servers/lumiclip/lumiclip-mcp-server)
+[![smithery badge](https://smithery.ai/badge/lumiclip/lumiclip)](https://smithery.ai/servers/lumiclip/lumiclip) [![Lumiclip MCP server](https://glama.ai/mcp/servers/lumiclip/lumiclip-mcp-server/badges/card.svg)](https://glama.ai/mcp/servers/lumiclip/lumiclip-mcp-server)
 
 ## Quick Start
 
@@ -42,7 +42,7 @@ Add to your config file — `claude_desktop_config.json` for Claude, `.cursor/mc
 ### Smithery
 
 ```bash
-npx @smithery/cli mcp add lumiclip/lumiclip-mcp-server
+npx @smithery/cli mcp add lumiclip/lumiclip
 ```
 
 ### Remote (Streamable HTTP)
