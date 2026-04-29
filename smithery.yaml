@@ -1,0 +1,17 @@
+startCommand:
+  type: stdio
+configSchema:
+  type: object
+  required:
+    - apiKey
+  properties:
+    apiKey:
+      type: string
+      description: Lumiclip API key from https://app.lumiclip.ai/developers (starts with sk_live_)
+    apiUrl:
+      type: string
+      description: Custom API base URL. Only change this if you're using a self-hosted or staging Lumiclip instance.
+      default: https://api.lumiclip.ai
+commandFunction:
+  |-
+  (config) => ({ command: 'npx', args: ['-y', '@lumiclip/mcp-server'], env: { LUMICLIP_API_KEY: config.apiKey, ...(config.apiUrl ? { LUMICLIP_API_URL: config.apiUrl } : {}) } })
