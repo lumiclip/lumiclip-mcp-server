@@ -1,6 +1,6 @@
 # @lumiclip/mcp-server
 
-Turn YouTube videos into short clips — from Claude, Cursor, or any AI assistant that supports MCP.
+Turn long videos into short clips — from Claude, Cursor, or any AI assistant that supports MCP.
 
 Give it a YouTube link. It finds the best moments, reframes for vertical video (9:16), adds subtitles, and returns download-ready clips.
 
